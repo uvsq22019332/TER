@@ -1,0 +1,29 @@
+version 2
+run General-0-20210408-13:32:27-2033
+attr configname General
+attr datetime 20210408-13:32:27
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network MM1
+attr processid 2033
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.interArrivalTime exponential(1)
+param **.serviceTime exponential(1)
+
+vector 0 MM1.sink Delay ETV
+0	6	2.051805262613	1.255930758047
+0	8	2.975028394084	1.280593501034
+0	12	4.341240245107	0.787201139982
+0	16	6.056632927679	0.55104848667
+0	22	8.422707795876	1.038159300664
+0	26	8.998226992759	0.636672071154
+0	32	11.221751414795	2.375068329468
+0	34	11.540107555637	2.340265331172
+
